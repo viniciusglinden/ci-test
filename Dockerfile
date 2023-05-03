@@ -1,3 +1,5 @@
+# Author: Vinícius Gabriel Linden
+# Date: 2023-05-02
 # podman build -t vglinden/c-builder:<VERSION> .
 # podman run --rm -it -u$(id -u):$(id -g) -v$(pwd):/data vglinden/c-builder
 
