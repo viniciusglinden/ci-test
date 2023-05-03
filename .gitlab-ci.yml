@@ -1,0 +1,10 @@
+image: registry.gitlab.com/viniciusglinden/ci-test:latest
+
+build:
+  stage: build
+  script:
+    - make test
+  artifacts:
+    paths:
+      - app
+

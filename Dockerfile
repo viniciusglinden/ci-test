@@ -1,5 +1,5 @@
 # podman build -t vglinden/c-builder:<VERSION> .
-# podman run --rm -it -v$(pwd):/data vglinden/c-builder
+# podman run --rm -it -u$(id -u):$(id -g) -v$(pwd):/data vglinden/c-builder
 
 ARG ALPINE_TAG=3.17.3
 FROM alpine:${ALPINE_TAG}
