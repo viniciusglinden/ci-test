@@ -21,3 +21,9 @@ podman build -t registry.gitlab.com/viniciusglinden/ci-test .
 podman tag <image id> registry.gitlab.com/viniciusglinden/ci-test
 podman push registry.gitlab.com/viniciusglinden/ci-test
 ```
+
+## GitLab variables
+
+[See all gitlab
+variables](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html).
+See job to check exported variables.

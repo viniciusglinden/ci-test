@@ -1,4 +1,7 @@
-image: registry.gitlab.com/viniciusglinden/ci-test:latest
+variables:
+  CI_DEBUG_TRACE: "true"
+
+image: $CI_REGISTRY_IMAGE
 
 build:
   stage: build
